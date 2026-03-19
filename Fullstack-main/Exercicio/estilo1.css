@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(174, 174, 224);
+
+}
+
+.numero {
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    margin-top: 400px;
+}
+
+.resto {
+    justify-content: center;
+    display: flex;
+    font-size: 100px;
+    text-align: center;
+    font-style: oblique;
+}
