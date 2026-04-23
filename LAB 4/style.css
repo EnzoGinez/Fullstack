@@ -1,0 +1,12 @@
+.texto {
+    justify-content: center;
+    display: flex;
+    font-size: 100px;
+    margin-top: 400px;
+}
+
+.img {
+    justify-content: center;
+    display: flex;
+    margin-top: 60px;
+}
