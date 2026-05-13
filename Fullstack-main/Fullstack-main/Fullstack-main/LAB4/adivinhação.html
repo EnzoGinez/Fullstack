@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo1.css">
+    <title>Jogo de Adivinhação</title>
+</head>
+<body>
+
+    <div class="painel-jogo">
+        <h1 class="titulo">Adivinhação</h1>
+        <p>Escolhi um número entre 1 e 100. Consegue acertar?</p>
+        
+        <div class="entrada">
+            <input type="number" id="meuChute" placeholder="0">
+            <button onclick="verificarPalpite()">Tentar</button>
+        </div>
+
+        <div id="resultado" class="mensagem">Boa sorte!</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
